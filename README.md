@@ -36,7 +36,7 @@ pod 'YIQISpeechEngine', :git => 'https://gitee.com/guxiong/YIQISpeechEngine.git'
 `podfile`中可以通过如下方式指定版本号：
 
 ```
-pod 'PEPReaderSDK', { :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK.git', :tag => '2.0.0' }
+pod 'PEPReaderSDK_YiQi', { :git => 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi.git', :tag => '2.0.0' }
 ```
 
 
