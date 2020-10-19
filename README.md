@@ -9,7 +9,7 @@
 
 ## 使用说明
 
-由于人教点读SDK依赖的福昕RDK文件较大，无法上传GitHub，可以[点击这里](https://rjszgsres.mypep.cn/rjdd/iOSFoxitRDK/FoxitRDK_arm.framework.zip)下载，然后将解压出的`FoxitRDK.framework`导入到项目中。
+由于人教点读SDK依赖的福昕RDK文件较大，无法上传GitHub，可以[点击这里](https://rjszgsres.mypep.cn/rjdd/iOSFoxitRDK/FoxitRDK_arm.framework.zip)下载，然后将解压出的`FoxitRDK.framework`导入到项目中。(已更新至7.3版本)
 
 
 ### 接入
@@ -142,6 +142,6 @@ done
 
 #### 4. 正在完善中...
 
-对接中出现的任何问题，欢迎随时反馈（lipz@pep.com.cn），或者提[Issues](https://github.com/PEPDigitalPublishing/PEPReaderSDK/issues).
+对接中出现的任何问题，欢迎随时反馈（hanhf@pep.com.cn），或者提[Issues](https://github.com/PEPDigitalPublishing/PEPReaderSDK/issues).
 
 
