@@ -4,13 +4,13 @@ Pod::Spec.new do |s|
 
   s.name         = 'PEPReaderSDK_YiQi'
 
-  s.version      = '2.6'
+  s.version      = '2.6.1'
 
   s.summary      = '人教点读新SDK'
 
   s.author       = { 'PEP' => 'lipz@pep.com.cn' }
 
-  s.platform     =  :ios, '9.0'
+  s.platform     =  :ios, '10.0'
 
   s.homepage     = 'https://github.com/PEPDigitalPublishing/PEPReaderSDK_YiQi'
 
