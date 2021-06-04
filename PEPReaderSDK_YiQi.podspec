@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.resource = 'PDFReaderSDKDiandu.xcassets'
 
-  s.frameworks   = 'MobileCoreServices', 'Security', 'CoreTelephony', 'AudioToolbox', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'AddressBook', 'CoreLocation'
+  s.frameworks   = 'MobileCoreServices', 'Security', 'CoreTelephony', 'AudioToolbox', 'CoreGraphics', 'QuartzCore', 'SystemConfiguration', 'AddressBook', 'CoreLocation', 'Contacts'
 
   s.ios.library = 'stdc++', 'resolv.9'
 
@@ -28,6 +28,8 @@ Pod::Spec.new do |s|
   s.dependency 'Masonry'
   s.dependency 'SAMKeychain'
   s.dependency 'SSZipArchive'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.requires_arc = true
 
