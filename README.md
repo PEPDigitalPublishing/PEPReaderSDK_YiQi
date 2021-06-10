@@ -8,7 +8,7 @@
 -|:-:|:-:
 2021-06-04   | v2.6.1 | 修改podfile适配xcode 12
 2021-06-08   | v2.6.2 | 语音评测UI 适配iPhone SE Mini
-
+2021-06-10   | v2.6.5 | 语音评测UI 适配iPhone SE Mini
 
 ## 系统要求
 
